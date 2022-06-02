@@ -1,0 +1,52 @@
+#hero {
+    height: 800px;
+    background-image: url("/images/places/beach-glasses.jpg");
+    background-position: center;
+    background-size: cover;
+  
+}
+
+#hero-content {
+    width: 900px;
+    background-color: rgba(51, 47, 47, .6);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+ 
+}
+
+#hero-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+   
+}
+
+#hero-content p {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+#hero-content a {
+    text-decoration: none;
+    background-color: rgb(255, 251, 0);
+    padding: 12px 24px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+#hero-content a:hover,
+#hero-content a:active {
+    background-color: rgb(255, 238, 0);
+}
